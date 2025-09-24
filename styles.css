@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    color: #222;
+}
+header {
+    background: linear-gradient(90deg, #4f8cff 0%, #3358e0 100%);
+}
+.card-title {
+    color: #3358e0;
+    font-weight: bold;
+}
+.btn-warning, .btn-success {
+    font-weight: bold;
+}
+#testimonial-list .card {
+    margin-bottom: 20px;
+}
+footer {
+    background: #222 !important;
+    color: #fff;
+}
+@media (max-width: 900px) {
+    .row.g-4 {
+        flex-direction: column;
+    }
+}
